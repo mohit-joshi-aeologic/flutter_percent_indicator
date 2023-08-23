@@ -144,7 +144,7 @@ class CircularPercentIndicator extends StatefulWidget {
     assert(startAngle >= 0.0);
     if (percent < 0.0 || percent > 100.0) {
       throw Exception(
-          "Percent value must be a double between 0.0 and 100.0, but it's $percent");
+          "Percent value must be a double betweens 0.0 and 100.0, but it's $percent");
     }
 
     if (arcType == null && arcBackgroundColor != null) {
